@@ -61,12 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				orange: {
+					50: '#fff7ed',
+					500: '#FF6B35',
+					600: '#ea5a2d',
+				},
+				navy: {
+					800: '#2C3E50',
+					900: '#1a252f',
+				},
+				gray: {
+					50: '#f8fafc',
+					100: '#ECF0F1',
+					900: '#0f172a',
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				heading: ['Montserrat', 'sans-serif'],
+				body: ['Open Sans', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {
